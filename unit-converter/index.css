@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-color: #F4F4F4;
+    font-family: 'Inter', sans-serif;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #6943FF;
+    color: white;
+}
+
+#input-el {
+    width: 117px;
+    height: 83px;
+    margin-bottom: 25px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    font-size: 58px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    padding: 0;
+    background-color: #6943FF;
+}
+
+#convert-btn {
+    font-family: 'Inter', sans-serif;
+    padding: 9px 27.5px;
+    border-radius: 5px;
+    border: 0px solid white;
+    margin-bottom: 34px;
+    font-weight: 500;
+}
+
+.conversion {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: #5A537B;
+    font-weight: bold;
+    
+}
+
+#length {
+    margin-top: 36px;
+}
+
+#length, #mass, #volume {
+    width: 500px;
+    height: 108.57px;
+    margin-bottom: 25px;
+    background-color: white;
+}
+
+#resultLen-el, #resultVol-el, #resultMass-el {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
